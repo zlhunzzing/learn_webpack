@@ -9,8 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  
+  NPM: 라이브러리 버전, 의존성 관리
 
-  npm i jquery jquery-ui
   "dependencies": {
     "jquery": "^3.4.1",
     "jquery-ui": "^1.12.1",
