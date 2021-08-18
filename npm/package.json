@@ -9,9 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  
-  NPM: 라이브러리 버전, 의존성 관리
-
   "dependencies": {
     "jquery": "^3.4.1",
     "jquery-ui": "^1.12.1",
@@ -20,8 +17,14 @@
     "chart": ,
     "vue": "^2.6.11",
   },
-  npm i vue -D
-  npm i vue --save-dev
+  
+  NPM 전역 설치 경로: 
+  # window
+  %USERPROFILE%\AppData\Roaming\npm\node_modules
+
+  # mac
+  /usr/local/lib/node_modules
+
   "devDependencies": {
     
     "webpack": "",
