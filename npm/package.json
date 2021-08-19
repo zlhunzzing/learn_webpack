@@ -18,12 +18,8 @@
     "vue": "^2.6.11",
   },
   
-  NPM 전역 설치 경로: 
-  # window
-  %USERPROFILE%\AppData\Roaming\npm\node_modules
-
-  # mac
-  /usr/local/lib/node_modules
+  NPM --save-dev
+  --save는 기본옵션
 
   "devDependencies": {
     
