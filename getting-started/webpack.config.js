@@ -8,3 +8,6 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   }
 };
+
+// # node path
+// # entry, output
