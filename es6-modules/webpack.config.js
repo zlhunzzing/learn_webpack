@@ -24,3 +24,4 @@ module.exports = {
 	},
 	devtool: 'source-map'
 };
+// 빌드 결과물 분석 - sourcemap, throttling, gulp
