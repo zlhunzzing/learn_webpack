@@ -5,7 +5,7 @@ module.exports = {
   mode: 'none', // production, development, none
   entry: './index.js', 
   output: {
-    filename: 'bundle.js',
+    filename: '[name].[chunkhash].js',
     path: path.resolve(__dirname, 'dist')
   },
   module: {
@@ -20,3 +20,5 @@ module.exports = {
   //   new MiniCssExtractPlugin()
   // ],
 }
+
+// # build log
