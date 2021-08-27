@@ -13,6 +13,7 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader']
+        // loader 순서 오른쪽 > 왼쪽
       },
     ]
   },
