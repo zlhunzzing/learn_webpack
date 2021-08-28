@@ -17,9 +17,10 @@ module.exports = {
       },
     ]
   },
-  // plugins: [
-  //   new MiniCssExtractPlugin()
-  // ],
+  plugins: [
+    new MiniCssExtractPlugin()
+  ],
 }
 
 // # build log
+// # plugin: 결과물 제어
