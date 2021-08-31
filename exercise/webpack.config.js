@@ -3,10 +3,12 @@ var webpack = require('webpack')
 
 module.exports = {
   mode: 'production',
+  // mode: 4버전 부터
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
+    // cdn 관계
     filename: 'build.js'
   },
   module: {
@@ -27,10 +29,12 @@ module.exports = {
           // other vue-loader options go here
         }
       },
+      // 웹팩에 바벨 껴기 가능
       {
         test: /\.js$/,
         loader: 'babel-loader',
         exclude: /node_modules/
+        // 배제
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
@@ -41,6 +45,7 @@ module.exports = {
       }
     ]
   },
+  // resolve: 파일 해석 방식
   resolve: {
     alias: {
       'vue$': 'vue/dist/vue.esm.js'
@@ -58,6 +63,7 @@ module.exports = {
   devtool: '#eval-source-map'
 }
 
+// 하기: 4버전에는 없음
 // if (process.env.NODE_ENV === 'production') {
 //   module.exports.devtool = '#source-map'
 //   // http://vue-loader.vuejs.org/en/workflow/production.html
